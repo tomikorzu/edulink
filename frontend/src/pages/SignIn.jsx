@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import NavbarMenu from "../components/NavbarMenu.jsx";
 import { redirectPage } from "../utils/mainFunctions.js";
+import "../assets/styles/index.css";
+
 
 const SignIn = () => {
   useEffect(() => {

@@ -4,6 +4,8 @@ import { redirectPage, applyBlur } from "../utils/mainFunctions.js";
 import DesplegableMenu from "../components/DesplegableMenu.jsx";
 import { User } from "../utils/variables.js";
 import { userAlert } from "../utils/mainFunctions.js";
+import "../assets/styles/index.css";
+
 
 const signUp = () => {
   const [showMenu, setShowMenu] = useState(false);
